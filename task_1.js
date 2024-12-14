@@ -54,7 +54,7 @@ switch (Math.max(...userSkills)) {
 }; // user with highest number of skills
 
 // 2.	Count logged in users, count users having greater than equal to 50 points from the following object.
-const loginCount = 0;
+let loginCount = 0;
 if (users.Alex.isLoggedIn) {
     loginCount++;
 };
@@ -138,8 +138,3 @@ for (let index = 0; index < countries.length; index++) {
     };
 };
 console.log(_4_charCountry);
-/*
-
-
-
-*/
